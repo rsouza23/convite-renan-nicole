@@ -36,10 +36,11 @@ DEBUG = True
 # Set to "console" for console output of emails or to "smtp" to send real mails
 MAIL_BACKEND = "console"
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "convite-renan-nicole.onrender.com" ]
 CSRF_TRUSTED_ORIGINS = [
     "http://127.0.0.1",
-    "http://localhost"
+    "http://localhost",
+    "convite-renan-nicole.onrender.com"
 ]
 
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
