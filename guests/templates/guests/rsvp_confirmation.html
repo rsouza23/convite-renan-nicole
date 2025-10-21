@@ -1,30 +1,34 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block page_head %}
-    <link href="{% static 'bigday/css/rsvp-confirmation.css' %}" rel="stylesheet" xmlns="http://www.w3.org/1999/html">
+    <link href="{% static 'bigday/css/rsvp-confirmation.css' %}" rel="stylesheet">
 {% endblock %}
 {% block page_content %}
     <div class="layer"></div>
     <div class="container" id="main">
-        <h2>Hi {{ party.name }}! Thanks for your response!</h2>
+        <h2>Olá {{ party.name }}! Obrigado por confirmar sua presença ❤️</h2>
+
         {% if party.any_guests_attending %}
             <p>
-                We can't wait to celebrate with you in Niagara!
+                Estamos muito felizes por celebrar esse momento com vocês!
             </p>
             <p>
-                If you've got a minute, you can help us out by filling in a <a href="http://goo.gl/forms/AFszTcpPRW">super quick survey</a> that will help us plan for the most fun and smooth event possible.
-                If you have any other questions, don't hesitate to email us at <a href="mailto:{{ support_email }}">{{ support_email }}</a>.
+                Caso precise alterar algo ou tirar dúvidas, entre em contato conosco pelo e-mail:
+                <a href="mailto:{{ support_email }}">{{ support_email }}</a>.
+            </p>
+            <p>
+                Em breve enviaremos mais informações sobre os horários, a cerimônia e a festa ✨
             </p>
         {% else %}
             <p>
-                We're sorry you won't be able to join us in Niagara.
+                Sentiremos sua falta neste dia tão especial 💕
             </p>
             <p>
-                We look forward to catching up with you some other time!
+                Esperamos poder nos reunir em outra ocasião!
             </p>
         {% endif %}
-        <p>
-            - Cory and Rowena
+        <p class="signature">
+            — Com carinho, Nicole & Renan
         </p>
     </div>
 {% endblock %}

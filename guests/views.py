@@ -85,7 +85,7 @@ def invitation(request, invite_id):
         party.is_attending = party.any_guests_attending
         party.save()
         return HttpResponseRedirect(reverse('rsvp-confirm', args=[invite_id]))
-    return render(request, template_name='guests/invitation.html', context={
+    return render(request, template_name='guests/invitation_modern.html', context={
         'party': party,
         'meals': MEALS,
         'couple_name' : settings.BRIDE_AND_GROOM,
