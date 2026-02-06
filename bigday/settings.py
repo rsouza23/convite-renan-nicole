@@ -40,8 +40,12 @@ ALLOWED_HOSTS = ["127.0.0.1", "localhost", "rsouza01.pythonanywhere.com" ]
 CSRF_TRUSTED_ORIGINS = [
     "http://127.0.0.1",
     "http://localhost",
+<<<<<<< HEAD
     "https://rsouza01.pythonanywhere.com",
     "http://rsouza01.pythonanywhere.com"
+=======
+    "rsouza01.pythonanywhere.com"
+>>>>>>> fa39fde8b88d12a844651420f3a5a4b8b753c679
 ]
 
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
