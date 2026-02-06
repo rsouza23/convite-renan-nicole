@@ -1,15 +1,23 @@
 #!/bin/bash
 
+# Coletar arquivos estáticos
 python manage.py collectstatic --noinput
 
-# i commit my migration files to git so i dont need to run it on server
-# ./manage.py makemigrations app_name
+# Rodar migrações
 python manage.py migrate
 
-# Create the superuser
+# Garantir que o superusuário seja criado (caso não exista)
+python manage.py shell <<EOF
+from django.contrib.auth import get_user_model
+from django.core.management import call_command
 
-python manage.py createsuperuser --noinput
+User = get_user_model()
+if not User.objects.filter(username='admin').exists():
+    call_command('createsuperuser', username='admin', email='admin@example.com', password='adminpassword')
+EOF
 
+# Iniciar o Nginx
 /usr/sbin/nginx -g 'daemon off;' &
 
-gunicorn bigday.wsgi --bind 0.0.0.0:8000
+# Iniciar o Gunicorn
+gunicorn bigday.wsgi:application --bind 0.0.0.0:8000
