@@ -3,3 +3,5 @@ Fabric==1.10.2
 psycopg2-binary==2.9.11
 django-environ==0.11.2
 gunicorn==21.2.0
+mercadopago
+
