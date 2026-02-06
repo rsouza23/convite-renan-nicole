@@ -13,7 +13,7 @@ from django.core.management import call_command
 
 User = get_user_model()
 if not User.objects.filter(username='admin').exists():
-    call_command('createsuperuser', username='admin', email='admin@example.com', password='adminpassword')
+    User.objects.create_superuser('admin', 'admin@example.com', 'admin')
 EOF
 
 # Iniciar o Nginx
