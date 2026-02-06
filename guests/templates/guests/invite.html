@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_head %}
+<style>
+body {
+    background: linear-gradient(rgba(28,56,81,0.9), rgba(28,56,81,0.9)),
+                url("{% static 'bigday/images/bg-floral-light.png' %}") center/cover no-repeat fixed;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 140px;
+    background: rgba(255,255,255,0.96);
+    color: #1C3851;
+    border-radius: 20px;
+    padding: 45px 50px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.25);
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.8em;
+    color: #1C3851;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.05em;
+    margin-bottom: 25px;
+}
+
+/* ===== Campo de busca ===== */
+input[type="text"] {
+    margin-bottom: 20px;   /* Espaço entre o campo e o botão */
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    padding: 0 18px;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+input[type="text"]:focus {
+    box-shadow: 0 0 8px rgba(28,56,81,0.4);
+    border-color: #1C3851;
+}
+
+/* ===== Botões ===== */
+.btn-primary {
+    background: linear-gradient(135deg, #1C3851, #2F4A6E);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 40px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover {
+    background: #fff;
+    color: #1C3851;
+    box-shadow: 0 4px 14px rgba(28,56,81,0.25);
+}
+
+.btn-outline-secondary {
+    border: 2px solid #1C3851;
+    color: #1C3851;
+    border-radius: 30px;
+    padding: 10px 25px;
+    background: transparent;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.btn-outline-secondary:hover {
+    background: #1C3851;
+    color: #fff;
+}
+
+hr {
+    margin: 35px auto;
+    width: 60%;
+    border-top: 1px solid #d6dbe0;
+}
+
+#error-message {
+    color: #c0392b;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* ===== Responsivo ===== */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 100px;
+        padding: 35px 25px;
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+}
+</style>
+{% endblock %}
+
+{% block page_content %}
+<div class="container text-center">
+    <h1>Confirmar Presença</h1>
+    <p>Digite o nome que está no convite ou o código impresso.<br>Ou, se preferir, escaneie o QR Code.</p>
+
+    {% if error %}
+        <p id="error-message">{{ error }}</p>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="query" class="form-control"
+               placeholder="Ex: Família Souza ou código do convite" required>
+        <button type="submit" class="btn btn-primary mt-2">Buscar Convite</button>
+    </form>
+
+    <hr>
+    <p class="mt-4">ou</p>
+    <button id="scan-btn" class="btn btn-outline-secondary">📷 Ler QR Code</button>
+    <div id="reader" style="margin-top:20px; display:none;"></div>
+</div>
+
+<script src="https://unpkg.com/html5-qrcode"></script>
+<script>
+const scanBtn = document.getElementById('scan-btn');
+const reader = document.getElementById('reader');
+
+scanBtn.addEventListener('click', () => {
+    reader.style.display = 'block';
+    scanBtn.style.display = 'none';
+
+    const html5QrCode = new Html5Qrcode("reader");
+    html5QrCode.start(
+        { facingMode: "environment" },
+        { fps: 10, qrbox: 250 },
+        (decodedText) => {
+            html5QrCode.stop().then(() => {
+                // Mostra um loading simples antes de redirecionar
+                const loadingMsg = document.createElement('p');
+                loadingMsg.innerText = "🔍 Buscando seu convite...";
+                loadingMsg.style.marginTop = "15px";
+                reader.parentElement.appendChild(loadingMsg);
+                setTimeout(() => window.location.href = decodedText, 1200);
+            });
+        },
+        (errorMessage) => {}
+    ).catch(err => {
+        alert("Erro ao acessar a câmera: " + err);
+    });
+});
+</script>
+{% endblock %}

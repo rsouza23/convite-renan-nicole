@@ -3,42 +3,10 @@
 
 {% block page_head %}
     <!-- Custom CSS -->
-    <link href="{% static 'bigday/css/creative.css' %}?v={{ now|date:'U' }}" rel="stylesheet">
+    <link href="{% static 'bigday/css/creative.css' %}?v={{ now|date:'His' }}" rel="stylesheet">
 {% endblock %}
 
 {% block page_content %}
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- LOGO -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="{% static 'bigday/images/logo-nr.png' %}" alt="Nicole e Renan" class="brand-logo">
-                </a>
-            </div>
-
-            <!-- MENU -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="#page-top">Início</a></li>
-                    <li><a class="page-scroll" href="#event">Cerimônia & Festa</a></li>
-                    <li><a class="page-scroll" href="#gifts">Presentes</a></li>
-                    <li><a class="page-scroll" href="#contact">Contato</a></li>
-                    <!-- Botão Confirmar Presença -->
-                    <li>
-                        <a href="/invite/" class="btn btn-outline-primary navbar-btn">
-                            Confirmar Presença
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
     <!-- HEADER -->
     <header id="main-header">
@@ -48,14 +16,16 @@
                 <hr>
                 <h2>05 de Setembro de 2026</h2>
                 <h3>Sorocaba, SP</h3>
-                <a href="/invite/" class="btn btn-primary btn-xl">Confirmar Presença</a>
+                <a href="{% url 'invite' %}" class="btn btn-primary btn-xl">Confirmar Presença</a>
             </div>
         </div>
     </header>
 
-    <!-- EVENT SECTION -->
-{% include 'partials/event.html' %}
+    <!-- COUNTDOWN -->
+    {% include 'partials/countdown.html' %}
 
+    <!-- EVENT SECTION -->
+    {% include 'partials/event.html' %}
 
     <!-- GIFTS -->
     <section id="gifts" class="bg-primary">
@@ -67,10 +37,29 @@
         <div class="container text-center">
             <h2 class="section-heading">Contato</h2>
             <hr class="primary">
-            <p>Em caso de dúvidas, envie uma mensagem:</p>
-            <p><a href="mailto:{{ support_email }}">{{ support_email }}</a></p>
+            <p>Em caso de dúvidas ou para falar conosco, envie uma mensagem:</p>
+
+            <div class="contact-buttons">
+                <a href="https://wa.me/5515996554963" target="_blank" class="btn btn-whatsapp bride">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="whatsapp-icon" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.881 7.881 0 0 0 8.001.333 7.931 7.931 0 0 0 .333 8.004a7.86 7.86 0 0 0 1.094 4.02L.667 15.333l3.427-.897a7.906 7.906 0 0 0 3.907 1.001h.003a7.931 7.931 0 0 0 7.668-10.007 7.903 7.903 0 0 0-2.071-3.104zM8.001 14.534a6.525 6.525 0 0 1-3.32-.903l-.237-.141-2.033.532.544-1.988-.153-.204A6.526 6.526 0 0 1 1.47 8.003a6.533 6.533 0 0 1 11.148-4.621 6.488 6.488 0 0 1 1.911 4.621 6.533 6.533 0 0 1-6.528 6.531z"/>
+                        <path d="M11.601 9.602c-.2-.1-1.177-.579-1.36-.645-.183-.067-.317-.1-.45.1-.133.2-.517.644-.633.778-.117.133-.233.15-.433.05-.2-.1-.85-.313-1.62-.999a6.33 6.33 0 0 1-1.17-1.443c-.117-.2-.013-.3.087-.4.09-.089.2-.233.3-.35.1-.117.133-.2.2-.333.067-.133.033-.25-.017-.35-.05-.1-.45-1.083-.617-1.483-.162-.39-.327-.338-.45-.345h-.383a.75.75 0 0 0-.55.25c-.183.2-.7.683-.7 1.667 0 .984.717 1.934.817 2.067.1.133 1.417 2.167 3.434 3.034.48.207.855.33 1.147.424.482.154.92.132 1.267.08.387-.058 1.177-.48 1.34-.943.167-.467.167-.867.117-.943-.05-.083-.183-.133-.383-.233z"/>
+                    </svg>
+                    💖 Falar com a Noiva
+                </a>
+
+                <a href="https://wa.me/5515997509268" target="_blank" class="btn btn-whatsapp groom">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="whatsapp-icon" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.881 7.881 0 0 0 8.001.333 7.931 7.931 0 0 0 .333 8.004a7.86 7.86 0 0 0 1.094 4.02L.667 15.333l3.427-.897a7.906 7.906 0 0 0 3.907 1.001h.003a7.931 7.931 0 0 0 7.668-10.007 7.903 7.903 0 0 0-2.071-3.104zM8.001 14.534a6.525 6.525 0 0 1-3.32-.903l-.237-.141-2.033.532.544-1.988-.153-.204A6.526 6.526 0 0 1 1.47 8.003a6.533 6.533 0 0 1 11.148-4.621 6.488 6.488 0 0 1 1.911 4.621 6.533 6.533 0 0 1-6.528 6.531z"/>
+                        <path d="M11.601 9.602c-.2-.1-1.177-.579-1.36-.645-.183-.067-.317-.1-.45.1-.133.2-.517.644-.633.778-.117.133-.233.15-.433.05-.2-.1-.85-.313-1.62-.999a6.33 6.33 0 0 1-1.17-1.443c-.117-.2-.013-.3.087-.4.09-.089.2-.233.3-.35.1-.117.133-.2.2-.333.067-.133.033-.25-.017-.35-.05-.1-.45-1.083-.617-1.483-.162-.39-.327-.338-.45-.345h-.383a.75.75 0 0 0-.55.25c-.183.2-.7.683-.7 1.667 0 .984.717 1.934.817 2.067.1.133 1.417 2.167 3.434 3.034.48.207.855.33 1.147.424.482.154.92.132 1.267.08.387-.058 1.177-.48 1.34-.943.167-.467.167-.867.117-.943-.05-.083-.183-.133-.383-.233z"/>
+                    </svg>
+                    💙 Falar com o Noivo
+                </a>
+            </div>
         </div>
     </section>
+
+
 {% endblock %}
 
 {% block page_js %}

@@ -4,59 +4,120 @@
     <hr class="primary">
 
     <p class="lead">
-        O melhor presente é ter você com a gente nesse momento tão especial 💖  
-        Mas, se quiser nos presentear, preparamos uma lista com muito carinho.
+        O melhor presente é ter você com a gente nesse momento tão especial 💖<br>
+        Mas, se quiser nos presentear, deixamos aqui algumas opções com muito carinho.
     </p>
 
     <div class="row" style="margin-top:40px;">
         <!-- ITEM 1 -->
         <div class="col-lg-3 col-sm-6">
             <div class="charity-box">
-                <img src="{% static 'bigday/images/gifts/viagem.jpg' %}" class="img-responsive img-rounded" alt="Lua de mel">
-                <h3>Contribuição para a Lua de Mel</h3>
-                <p>Ajude-nos a realizar uma viagem inesquecível para celebrar o começo dessa nova fase. 🌴✈️</p>
-                <a href="https://example.com/pagamento-luademel" target="_blank" class="btn btn-success btn-sm">Presentear 💚</a>
+                <img src="{% static 'bigday/images/gifts/geladeira.jpg' %}" class="img-responsive img-rounded" alt="Geladeira Frost Free">
+                <h3>Geladeira Frost Free</h3>
+                <p>Nos ajude a equipar nossa cozinha com uma geladeira nova. ❄️</p>
+                <button class="btn btn-primary btn-sm presentear" data-title="Geladeira Frost Free" data-price="3500.00">
+                    Presentear 💝
+                </button>
             </div>
         </div>
 
         <!-- ITEM 2 -->
         <div class="col-lg-3 col-sm-6">
             <div class="charity-box">
-                <img src="{% static 'bigday/images/gifts/jantar.jpg' %}" class="img-responsive img-rounded" alt="Jantar romântico">
-                <h3>Jantar Romântico</h3>
-                <p>Um jantar especial durante nossa lua de mel para brindar o amor. 🍷🍽️</p>
-                <a href="https://example.com/pagamento-jantar" target="_blank" class="btn btn-success btn-sm">Presentear 💚</a>
+                <img src="{% static 'bigday/images/gifts/microondas.jpg' %}" class="img-responsive img-rounded" alt="Micro-ondas 30L">
+                <h3>Micro-ondas 30L</h3>
+                <p>Um toque de praticidade no dia a dia do nosso lar. 🍲</p>
+                <button class="btn btn-primary btn-sm presentear" data-title="Micro-ondas 30L" data-price="750.00">
+                    Presentear 💝
+                </button>
             </div>
         </div>
 
         <!-- ITEM 3 -->
         <div class="col-lg-3 col-sm-6">
             <div class="charity-box">
-                <img src="{% static 'bigday/images/gifts/eletro.jpg' %}" class="img-responsive img-rounded" alt="Eletrodoméstico">
-                <h3>Itens para o novo lar</h3>
-                <p>Nos ajude a montar nosso cantinho com amor. 🏡💞</p>
-                <a href="https://example.com/pagamento-eletro" target="_blank" class="btn btn-success btn-sm">Presentear 💚</a>
+                <img src="{% static 'bigday/images/gifts/panelas.jpg' %}" class="img-responsive img-rounded" alt="Jogo de Panelas">
+                <h3>Jogo de Panelas</h3>
+                <p>Contribua com nosso novo cantinho para preparar muitas receitas juntos. 🍳</p>
+                <button class="btn btn-primary btn-sm presentear" data-title="Jogo de Panelas" data-price="480.00">
+                    Presentear 💝
+                </button>
             </div>
         </div>
 
         <!-- ITEM 4 -->
         <div class="col-lg-3 col-sm-6">
             <div class="charity-box">
-                <img src="{% static 'bigday/images/gifts/pix.jpg' %}" class="img-responsive img-rounded" alt="Pix">
-                <h3>Pix direto 💸</h3>
-                <p>Prefere algo prático?  
-                Use a chave Pix abaixo:</p>
-                <div style="background:#f8f8f8; padding:10px; border-radius:10px;">
-                    <b>📱 chave Pix:</b> <br> <code>casamentonicoleerenan@pix.com</code>
-                </div>
+                <img src="{% static 'bigday/images/gifts/liquidificador.jpg' %}" class="img-responsive img-rounded" alt="Liquidificador">
+                <h3>Liquidificador</h3>
+                <p>Perfeito para nossos cafés da manhã e sucos frescos. 🧃</p>
+                <button class="btn btn-primary btn-sm presentear" data-title="Liquidificador" data-price="290.00">
+                    Presentear 💝
+                </button>
             </div>
         </div>
     </div>
 
-    <hr class="light">
-
-    <p class="text-muted">
-        Obrigado por fazer parte da nossa história!  
-        Cada gesto de carinho é um pedacinho da nossa nova vida juntos. 💕
-    </p>
+    <div style="margin-top: 50px;">
+        <a href="/presentes/" class="btn btn-primary btn-xl" style="border-radius:30px; padding:15px 40px; font-weight:600;">
+            Ver todos os presentes 🎁
+        </a>
+    </div>
 </div>
+
+<!-- SCRIPT MERCADO PAGO -->
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+<script>
+  const mp = new MercadoPago("APP_USR-f8xxxxxxxxxxxxxxxx", { locale: "pt-BR" });
+
+  document.querySelectorAll('.presentear').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const title = btn.getAttribute('data-title');
+      const price = parseFloat(btn.getAttribute('data-price'));
+
+      try {
+        const response = await fetch("/create_preference/", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": getCookie("csrftoken")
+          },
+          body: JSON.stringify({ title, price })
+        });
+
+        if (!response.ok) throw new Error("Erro na requisição");
+
+        const data = await response.json();
+        console.log("Retorno da API:", data);
+
+        if (!data.id) {
+          alert("Erro: ID de preferência não encontrado!");
+          return;
+        }
+
+        // Abre o checkout do Mercado Pago
+        window.location.href = data.sandbox_init_point || data.init_point;
+
+      } catch (error) {
+        console.error("Erro ao criar preferência:", error);
+        alert("Erro ao iniciar o pagamento. Tente novamente mais tarde.");
+      }
+    });
+  });
+
+  // Função pra obter o CSRF token do Django
+  function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== "") {
+      const cookies = document.cookie.split(";");
+      for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.substring(0, name.length + 1) === (name + "=")) {
+          cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+          break;
+        }
+      }
+    }
+    return cookieValue;
+  }
+</script>

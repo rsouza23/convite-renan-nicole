@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_head %}
+    <!-- Custom CSS -->
+    <link href="{% static 'bigday/css/creative.css' %}?v={{ now|date:'U' }}" rel="stylesheet">
+{% endblock %}
+
+{% block page_content %}
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- LOGO -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="{% static 'bigday/images/logo-nr.png' %}" alt="Nicole e Renan" class="brand-logo">
+                </a>
+            </div>
+
+            <!-- MENU -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="page-scroll" href="#page-top">Início</a></li>
+                    <li><a class="page-scroll" href="#event">Cerimônia & Festa</a></li>
+                    <li><a class="page-scroll" href="#gifts">Presentes</a></li>
+                    <li><a class="page-scroll" href="#contact">Contato</a></li>
+                    <!-- Botão Confirmar Presença -->
+                    <li>
+                        <a href="/invite/" class="btn btn-outline-primary navbar-btn">
+                            Confirmar Presença
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header id="main-header">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Nicole & Renan</h1>
+                <hr>
+                <h2>05 de Setembro de 2026</h2>
+                <h3>Sorocaba, SP</h3>
+                <a href="/invite/" class="btn btn-primary btn-xl">Confirmar Presença</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- EVENT SECTION -->
+{% include 'partials/event.html' %}
+
+
+    <!-- GIFTS -->
+    <section id="gifts" class="bg-primary">
+        {% include 'partials/gifts.html' %}
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-dark">
+        <div class="container text-center">
+            <h2 class="section-heading">Contato</h2>
+            <hr class="primary">
+            <p>Em caso de dúvidas, envie uma mensagem:</p>
+            <p><a href="mailto:{{ support_email }}">{{ support_email }}</a></p>
+        </div>
+    </section>
+{% endblock %}
+
+{% block page_js %}
+    <script src="{% static 'creative/js/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'creative/js/jquery.fittext.js' %}"></script>
+    <script src="{% static 'creative/js/creative.js' %}"></script>
+{% endblock %}

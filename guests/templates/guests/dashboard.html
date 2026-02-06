@@ -1,124 +1,175 @@
 {% extends 'base.html' %}
+{% load static %}
+{% block page_head %}
+<style>
+/* Corrige o título cortado atrás do cabeçalho fixo */
+#main-header, nav.navbar, .navbar {
+    position: relative !important;
+}
+
+body {
+    background-color: #f6f7fb;
+    color: #1C3851;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 1px; /* empurra o conteúdo para baixo do menu fixo */
+}
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #1C3851;
+}
+table {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.table th {
+    background-color: #e6eef8;
+    color: #1C3851;
+}
+.section {
+    margin-bottom: 60px;
+}
+.btn-outline-primary {
+    border-color: #1C3851;
+    color: #1C3851;
+}
+.btn-outline-primary:hover {
+    background-color: #1C3851;
+    color: #fff;
+}
+
+/* ===== POPUP QR CODE ===== */
+#qrModal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+#qrModal .modal-content {
+    background: #fff;
+    border-radius: 14px;
+    padding: 25px 30px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    max-width: 300px;
+}
+#qrModal img {
+    margin: 20px auto;
+    width: 220px;
+    height: 220px;
+    display: block;
+}
+#qrModal h4 {
+    color: #1C3851;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+</style>
+{% endblock %}
+
 {% block page_content %}
-    <div class="container" id="main">
-        <h1>Dashboard</h1>
-        <table class="table table-striped">
-            <tr>
-                <td>Guests Attending / Possible</td>
-                <td>{{ guests }} / {{ possible_guests }}</td>
-            </tr>
-            <tr>
-                <td>Pending Invitations</td>
-                <td>{{ pending_invites }} ({{ pending_guests }} guests)</td>
-            </tr>
-            <tr>
-                <td>Unopened Invitations</td>
-                <td>{{ unopened_invite_count }}<span class="text-muted"> / {{ total_invites }}</span></td>
-            </tr>
-            <tr>
-                <td>Not Coming</td>
-                <td>{{ not_coming_guests }}</td>
-            </tr>
+<div class="container py-5">
+    <h1 class="mb-4 text-center">Painel de Convidados</h1>
+
+    <div class="section">
+        <h3>Resumo</h3>
+        <table class="table">
+            <tr><td>Convidados Confirmados / Total</td><td>{{ guests }} / {{ possible_guests }}</td></tr>
+            <tr><td>Convites Pendentes</td><td>{{ pending_invites }} ({{ pending_guests }} convidados)</td></tr>
+            <tr><td>Convites Não Abertos</td><td>{{ unopened_invite_count }} / {{ total_invites }}</td></tr>
+            <tr><td>Não Comparecerão</td><td>{{ not_coming_guests }}</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h3>Convidados Confirmados</h3>
+        {% if guestlist %}
+        <table class="table">
+            <thead><tr><th>Grupo</th><th>Nome</th></tr></thead>
+            <tbody>
+                {% for person in guestlist %}
+                <tr><td>{{ person.party.name }}</td><td>{{ person.first_name }} {{ person.last_name }}</td></tr>
+                {% endfor %}
             </tbody>
         </table>
-        <div class="row">
-            <div class="col-lg-6">
-                <h1>Guests by category</h1>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            {% for category in category_breakdown %}
-                            <th>{{ category.party__category }}</th>
-                            {% endfor %}
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            {% for category in category_breakdown %}
-                            <td>{{ category.count }}</td>
-                            {% endfor %}
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-lg-6">
-                <h1>Meal choices</h1>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            {% for meal in meal_breakdown %}
-                            <th>{{ meal.meal }}</th>
-                            {% endfor %}
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            {% for meal in meal_breakdown %}
-                            <td>{{ meal.count }}</td>
-                            {% endfor %}
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-lg-6">
-                <h1>Attending guests</h1>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Party</th>
-                            <th>Name</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for person in guestlist %}
-                        <tr>
-                            <td>{{ person.party.name }}</td>
-                            <td>{{ person.first_name }} {{ person.last_name }}</td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-lg-6">
-                <h1>Unavailable guests</h1>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Party</th>
-                            <th>Name</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for person in notcoming %}
-                        <tr>
-                            <td>{{ person.party.name }}</td>
-                            <td>{{ person.first_name }} {{ person.last_name }}</td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <h1>Unopened Invitations</h1>
-                {% with party_list=parties_with_unopen_invites %}
-                    {% include "guests/partials/party_list.html" %}
-                {% endwith %}
-            </div>
-            <div class="col-lg-6">
-                <h1>Open Unresponded Invitations</h1>
-                {% with parties_with_open_unresponded_invites as party_list %}
-                    {% include "guests/partials/party_list.html" %}
-                {% endwith %}
-            </div>
-        </div>
-        <div class="col-lg-6">
-                <h1>Attending Guests Without Meals</h1>
-                {% with guest_list=guests_without_meals %}
-                    {% include "guests/partials/guest_list.html" %}
-                {% endwith %}
-            </div>
-        </div>
+        {% else %}
+        <p>Nenhum convidado confirmou ainda.</p>
+        {% endif %}
     </div>
+
+    <div class="section">
+        <h3>Convidados que Não Comparecerão</h3>
+        {% if notcoming %}
+        <table class="table">
+            <thead><tr><th>Grupo</th><th>Nome</th></tr></thead>
+            <tbody>
+                {% for person in notcoming %}
+                <tr><td>{{ person.party.name }}</td><td>{{ person.first_name }} {{ person.last_name }}</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p>Nenhum convidado marcou que não comparecerá.</p>
+        {% endif %}
+    </div>
+
+    <div class="section">
+        <h3>Links de Convites</h3>
+        <p class="text-muted">Copie o link e envie via WhatsApp 💌</p>
+        <table class="table">
+            <thead>
+                <tr><th>Grupo</th><th>Link</th><th>Ações</th></tr>
+            </thead>
+            <tbody>
+                {% for party in parties %}
+                <tr>
+                    <td>{{ party.name }}</td>
+                    <td>
+                        <input id="link-{{ party.id }}" type="text" class="form-control" readonly
+                            value="{{ request.scheme }}://{{ request.get_host }}/invite/{{ party.invitation_id }}/">
+                    </td>
+                    <td>
+                        <button class="btn btn-sm btn-outline-primary" onclick="copyToClipboard('{{ party.id }}')">Copiar</button>
+                        <button class="btn btn-sm btn-outline-secondary"
+                            onclick="showQR('{{ request.scheme }}://{{ request.get_host }}/invite/{{ party.invitation_id }}/')">QR</button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- POPUP MODAL QR -->
+<div id="qrModal" onclick="closeQR(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+        <h4>📱 Escaneie o QR Code</h4>
+        <img id="qrImage" src="" alt="QR Code">
+        <button onclick="closeQR()" class="btn btn-outline-primary">Fechar</button>
+    </div>
+</div>
+
+<script>
+function copyToClipboard(id) {
+    var input = document.getElementById("link-" + id);
+    input.select();
+    document.execCommand("copy");
+    alert("✅ Link copiado!");
+}
+
+function showQR(link) {
+    const modal = document.getElementById("qrModal");
+    const qrImage = document.getElementById("qrImage");
+    qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=" + encodeURIComponent(link);
+    modal.style.display = "flex";
+}
+
+function closeQR(e) {
+    document.getElementById("qrModal").style.display = "none";
+}
+</script>
 {% endblock %}

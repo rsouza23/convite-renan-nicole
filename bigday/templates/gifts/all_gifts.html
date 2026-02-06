@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+<section id="gifts" class="bg-primary" style="padding: 120px 0;">
+    <div class="container text-center">
+        <h2 class="section-heading">Lista Completa de Presentes 🎁</h2>
+        <hr class="primary">
+        <p class="lead">Escolha um presente e contribua para montar o nosso novo lar 💙</p>
+
+        {% for category, items in gifts.items %}
+            <h3 style="margin-top: 60px; color: #1C3851; font-weight:700;">{{ category }}</h3>
+            <div class="row" style="margin-top: 30px;">
+                {% for gift in items %}
+                <div class="col-md-3 col-sm-6 gift-item">
+                    <div class="gift-card" style="background:#fff; border-radius:16px; padding:25px; margin-bottom:30px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+                        <img src="{% static gift.image %}" alt="{{ gift.name }}" class="img-responsive img-rounded" style="max-width:160px; margin:0 auto 15px;">
+                        <h4 style="color:#1C3851; font-weight:600;">{{ gift.name }}</h4>
+                        <p style="color:#1C3851;">{{ gift.description }}</p>
+                        <p style="font-weight:600; color:#1C3851;">R$ {{ gift.price|floatformat:2 }}</p>
+
+                        <!-- Botão de pagamento dinâmico -->
+                        <button
+                        class="btn btn-primary btn-sm presentear"
+                        style="border-radius:30px;"
+                        data-title="{{ gift.name }}"
+                        data-price="{{ gift.price|floatformat:2 }}">
+                        Presentear 💝
+                        </button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+
+        <div style="margin-top: 40px;">
+            <a href="/" class="btn btn-outline-primary" style="border-radius:30px; padding:12px 35px; font-weight:600;">
+                Voltar ao início ⬅️
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- SCRIPT MERCADO PAGO -->
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+<script>
+  const mp = new MercadoPago("APP_USR-f8xxxxxxxxxxxxxxxx", { locale: "pt-BR" });
+
+  document.querySelectorAll('.presentear').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const title = btn.getAttribute('data-title');
+      const price = parseFloat(btn.getAttribute('data-price').replace(',', '.'));
+
+      try {
+        const response = await fetch("/create_preference/", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": getCookie("csrftoken")
+          },
+          body: JSON.stringify({ title, price })
+        });
+
+        if (!response.ok) throw new Error("Erro na requisição");
+
+        const data = await response.json();
+        console.log("✅ Retorno Mercado Pago:", data);
+
+        if (!data.id) {
+          alert("Erro: ID de preferência não encontrado!");
+          return;
+        }
+
+        window.location.href = data.sandbox_init_point || data.init_point;
+
+      } catch (error) {
+        console.error("❌ Erro ao criar preferência:", error);
+        alert("Erro ao iniciar o pagamento. Tente novamente mais tarde.");
+      }
+    });
+  });
+
+  // Recupera o CSRF token do Django
+  function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== "") {
+      const cookies = document.cookie.split(";");
+      for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.substring(0, name.length + 1) === (name + "=")) {
+          cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+          break;
+        }
+      }
+    }
+    return cookieValue;
+  }
+</script>
+{% endblock %}

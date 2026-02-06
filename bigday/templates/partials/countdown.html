@@ -1,0 +1,69 @@
+{% load static %}
+
+<!-- COUNTDOWN SECTION -->
+<section id="countdown-section" class="countdown-wrapper">
+  <div class="container text-center">
+    <h2>Contagem Regressiva</h2>
+    <div class="countdown-container">
+      <div class="count-box">
+        <span id="days">00</span>
+        <small>DIAS</small>
+      </div>
+      <div class="count-box">
+        <span id="hours">00</span>
+        <small>HORAS</small>
+      </div>
+      <div class="count-box">
+        <span id="minutes">00</span>
+        <small>MINUTOS</small>
+      </div>
+      <div class="count-box">
+        <span id="seconds">00</span>
+        <small>SEGUNDOS</small>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const weddingDate = new Date("2026-09-05T16:30:00").getTime();
+
+      function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = weddingDate - now;
+        const container = document.querySelector(".countdown-container");
+
+        if (distance < 0) {
+          container.innerHTML = "<h3>💍 Chegou o grande dia!</h3>";
+          return;
+        }
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // 🔸 Função que adiciona animação "pulse"
+        function animate(el, newVal) {
+          if (el.textContent !== newVal) {
+            el.classList.remove("animate");
+            void el.offsetWidth; // força reflow
+            el.textContent = newVal;
+            el.classList.add("animate");
+          }
+        }
+
+        // 🔸 Aqui usamos a função animate()
+        animate(document.getElementById("days"), days.toString().padStart(2, "0"));
+        animate(document.getElementById("hours"), hours.toString().padStart(2, "0"));
+        animate(document.getElementById("minutes"), minutes.toString().padStart(2, "0"));
+        animate(document.getElementById("seconds"), seconds.toString().padStart(2, "0"));
+      }
+
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+    });
+  </script>
+</section>
+
+</section>

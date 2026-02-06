@@ -5,7 +5,6 @@
     <link href="{% static 'bigday/css/creative.css' %}" rel="stylesheet">
     <style>
         /* ===== RSVP MODERNO ===== */
-
         body {
             background: linear-gradient(rgba(28,56,81,0.92), rgba(28,56,81,0.92)),
                         url("{% static 'bigday/images/bg-floral-light.png' %}") center/cover no-repeat fixed;
@@ -48,10 +47,14 @@
         }
 
         .invite-card h4 {
-            font-weight: 600;
-            color: #1C3851;
-            margin-top: 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #1C3851;
+        margin-top: 25px;
+        font-size: 1.15em;
+        letter-spacing: 0.3px;
         }
+
 
         .invite-card p, label {
             font-size: 1.1em;
@@ -122,7 +125,7 @@
             <form data-toggle="validator" id="rsvp-form" class="form-horizontal text-left" method="post">
                 {% csrf_token %}
                 {% for guest in party.ordered_guests.all %}
-                    <div class="form-group" data-is-child="{{ guest.is_child }}">
+                    <div class="form-group">
                         <h4>{{ guest.name }}</h4>
                         {% with 'attending-'|add:guest.unique_id as attending_label %}
                             <label class="radio-inline">
@@ -135,20 +138,6 @@
                             </label>
                         {% endwith %}
                     </div>
-
-                    {% if not guest.is_child %}
-                        <div class="form-group">
-                            {% with 'meal-'|add:guest.unique_id as meal_label %}
-                                <label><strong>Opção de refeição:</strong></label><br>
-                                {% for meal_id, meal_name in meals %}
-                                    <label class="radio-inline">
-                                        <input type="radio" name="{{ meal_label }}" value="{{ meal_id }}" {% if guest.meal == meal_id %}checked{% endif %} {% if guest.is_attending == False %}disabled{% endif %}>
-                                        {{ meal_name }}
-                                    </label>
-                                {% endfor %}
-                            {% endwith %}
-                        </div>
-                    {% endif %}
                 {% endfor %}
 
                 <div class="form-group">
@@ -165,26 +154,4 @@
         <p class="credits">Nicole & Renan — 2026 💍</p>
     </div>
 
-{% endblock %}
-
-{% block page_js %}
-<script>
-    $(function () {
-        // habilita/desabilita opções de refeição com base na presença
-        $("input.attending-radio").change(function (e) {
-            var target = $(e.target);
-            if (target.closest('.form-group').data('is-child') === "True") return;
-
-            var mealContainer = target.closest('.form-group').next('.form-group');
-            var mealButtons = mealContainer.find('[type=radio]');
-            if (target.val() === 'yes') {
-                mealContainer.removeClass('text-muted');
-                mealButtons.prop('disabled', false);
-            } else {
-                mealContainer.addClass('text-muted');
-                mealButtons.prop('checked', false).prop('disabled', true);
-            }
-        });
-    });
-</script>
 {% endblock %}

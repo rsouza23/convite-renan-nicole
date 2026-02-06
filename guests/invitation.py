@@ -6,7 +6,7 @@ from django.core.mail import EmailMultiAlternatives
 from django.urls import reverse
 from django.http import Http404
 from django.template.loader import render_to_string
-from guests.models import Party, MEALS
+from guests.models import Party
 
 INVITATION_TEMPLATE = 'guests/email_templates/invitation.html'
 
@@ -32,7 +32,6 @@ def get_invitation_context(party):
         'preheader_text': "You are invited!",
         'invitation_id': party.invitation_id,
         'party': party,
-        'meals': MEALS,
     }
 
 

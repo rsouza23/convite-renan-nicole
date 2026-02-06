@@ -1,34 +1,147 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block page_head %}
-    <link href="{% static 'bigday/css/rsvp-confirmation.css' %}" rel="stylesheet">
-{% endblock %}
-{% block page_content %}
-    <div class="layer"></div>
-    <div class="container" id="main">
-        <h2>Olá {{ party.name }}! Obrigado por confirmar sua presença ❤️</h2>
 
-        {% if party.any_guests_attending %}
-            <p>
-                Estamos muito felizes por celebrar esse momento com vocês!
-            </p>
-            <p>
-                Caso precise alterar algo ou tirar dúvidas, entre em contato conosco pelo e-mail:
-                <a href="mailto:{{ support_email }}">{{ support_email }}</a>.
-            </p>
-            <p>
-                Em breve enviaremos mais informações sobre os horários, a cerimônia e a festa ✨
-            </p>
+{% block page_head %}
+<!-- Fonte para a assinatura -->
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="{% static 'bigday/css/creative.css' %}" rel="stylesheet">
+
+<style>
+    body {
+        background: linear-gradient(rgba(28,56,81,0.92), rgba(28,56,81,0.92)),
+                    url("{% static 'bigday/images/bg-floral-light.png' %}") center/cover no-repeat fixed;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .confirm-card {
+        background: rgba(255,255,255,0.97);
+        color: #1C3851;
+        border-radius: 18px;
+        box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+        padding: 50px 60px;
+        margin: 120px auto;
+        max-width: 750px;
+        animation: fadeInUp .9s ease;
+    }
+
+    .confirm-card h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 2.8em;
+        color: #1C3851;
+        margin-bottom: 25px;
+    }
+
+    .confirm-card p {
+        font-size: 1.2em;
+        line-height: 1.6em;
+    }
+
+    .gift-section {
+        margin-top: 40px;
+        font-size: 1.1em;
+        line-height: 1.6em;
+    }
+
+    .gift-section a {
+        color: #1C3851;
+        text-decoration: underline;
+        font-weight: 700;
+        font-size: 1.1em;
+    }
+
+    /* força a assinatura */
+    .confirm-card .signature {
+        font-family: 'Great Vibes', cursive !important;
+        font-size: 3rem !important;
+        color: #0F2742 !important;
+        margin-top: 60px !important;
+        margin-bottom: 45px !important;
+        letter-spacing: 0.4px !important;
+        text-shadow: 1px 1px 4px rgba(0,0,0,0.12) !important;
+        line-height: 1.1 !important;
+    }
+
+    .btn-home {
+        display: inline-block;
+        margin-top: 25px;
+        padding: 14px 40px;
+        border-radius: 35px;
+        background: linear-gradient(135deg, #1C3851 0%, #2F4A6E 100%);
+        border: 2px solid #1C3851;
+        color: #fff !important;
+        font-weight: 600;
+        font-size: 1.1em;
+        letter-spacing: 0.5px;
+        transition: all .3s ease;
+        text-decoration: none;
+    }
+
+    .btn-home:hover,
+    .btn-home:focus {
+        background: #fff;
+        color: #1C3851 !important;
+        box-shadow: 0 6px 15px rgba(28,56,81,0.25);
+    }
+
+    @keyframes fadeInUp {
+        from {opacity:0; transform: translateY(40px);}
+        to {opacity:1; transform: translateY(0);}
+    }
+
+    @media (max-width: 768px) {
+        .confirm-card {
+            padding: 40px 25px;
+            margin: 100px 20px;
+        }
+        .confirm-card .signature {
+            font-size: 2.4rem !important;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+    <div class="confirm-card">
+        <h2>Olá {{ party.name }}!</h2>
+
+        {% if status == "all" %}
+            <p>Estamos muito felizes por saber que todos vocês estarão conosco neste dia tão especial ❤️</p>
+            <p>A cerimônia acontecerá no dia <strong>05 de Setembro de 2026</strong>, em <strong>Sorocaba - SP</strong> 🕊️<br>
+               Mais detalhes sobre o local e horário estão disponíveis na página inicial do site ✨</p>
+
+        {% elif status == "some" %}
+            <p>Ficamos muito felizes pelos que poderão estar conosco ❤️<br>
+            Mas sentiremos a falta de quem não poderá comparecer 🥹</p>
+            <p>Nos vemos no dia <strong>05 de Setembro de 2026</strong>, em <strong>Sorocaba - SP</strong> 🕊️<br>
+               Todas as informações estão na página inicial do site ✨</p>
+
+        {% elif status == "none" %}
+            <p>Sentiremos muito a falta de vocês neste dia tão especial 💔</p>
+            <p>Esperamos poder nos reunir em outra ocasião e celebrar juntos da próxima vez 🕊️</p>
+
         {% else %}
-            <p>
-                Sentiremos sua falta neste dia tão especial 💕
-            </p>
-            <p>
-                Esperamos poder nos reunir em outra ocasião!
-            </p>
+            <p>Obrigado pela confirmação! Em breve entraremos em contato com mais detalhes ❤️</p>
         {% endif %}
-        <p class="signature">
-            — Com carinho, Nicole & Renan
+
+        <!-- inline pra ganhar de qualquer CSS chato -->
+        <p class="signature" style="
+            font-family: 'Great Vibes', cursive;
+            font-size: 3rem;
+            color: #0F2742;
+        ">
+            Com carinho,<br>Nicole & Renan
         </p>
+
+        <div class="gift-section">
+            <p>O maior presente é a sua presença 💝<br>
+            Mas, se desejar nos presentear, você pode acessar nossa lista de presentes clicando abaixo:</p>
+            <p><a href="https://rsouza01.pythonanywhere.com/presentes/" target="_blank">🎁 <strong>Ver lista de presentes</strong></a></p>
+        </div>
+
+        <a href="/" class="btn-home">Voltar ao site</a>
     </div>
+</div>
 {% endblock %}

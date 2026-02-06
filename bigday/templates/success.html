@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+<section id="payment-success" class="bg-primary" style="padding:120px 0;">
+    <div class="container text-center">
+        <h2 class="section-heading">🎉 Pagamento Concluído!</h2>
+        <hr class="primary">
+        <p class="lead">
+            Seu presente foi recebido com muito carinho 💖<br>
+            Agradecemos de coração por participar desse momento tão especial.
+        </p>
+
+        <img src="{% static 'bigday/images/obrigado.png' %}" 
+             alt="Obrigado" 
+             style="max-width:300px; margin:40px auto; display:block;">
+
+        <a href="/" class="btn btn-primary btn-xl" 
+           style="border-radius:30px; padding:15px 40px; font-weight:600;">
+           Voltar à página inicial 💒
+        </a>
+    </div>
+</section>
+{% endblock %}

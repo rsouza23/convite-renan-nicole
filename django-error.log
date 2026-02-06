@@ -1,0 +1,1345 @@
+[2025-10-24 11:51:56,048] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-24 11:51:56,060] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-24 11:51:56,199] WARNING django.request: Not Found: /static/bigday/images/gifts/pix.jpg
+[2025-10-24 11:51:56,214] WARNING django.request: Not Found: /static/bigday/images/gifts/eletro.jpg
+[2025-10-24 11:52:08,946] WARNING django.request: Not Found: /teste_Erro
+[2025-10-24 13:35:07,635] WARNING django.request: Not Found: /static/bigday/images/gifts/eletro.jpg
+[2025-10-24 13:35:07,664] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-24 13:35:07,696] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-24 13:35:07,992] WARNING django.request: Not Found: /static/bigday/images/gifts/pix.jpg
+[2025-10-24 13:41:14,782] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-24 13:41:14,926] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-24 13:41:14,950] WARNING django.request: Not Found: /static/bigday/images/gifts/eletro.jpg
+[2025-10-24 13:41:15,073] WARNING django.request: Not Found: /static/bigday/images/gifts/pix.jpg
+[2025-10-24 13:45:15,609] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-24 13:45:15,777] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-24 13:45:15,783] WARNING django.request: Not Found: /static/bigday/images/gifts/eletro.jpg
+[2025-10-24 13:45:15,915] WARNING django.request: Not Found: /static/bigday/images/gifts/pix.jpg
+[2025-10-24 13:48:20,122] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-24 13:48:20,280] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-24 13:48:20,290] WARNING django.request: Not Found: /static/bigday/images/gifts/eletro.jpg
+[2025-10-24 13:48:20,296] WARNING django.request: Not Found: /static/bigday/images/gifts/pix.jpg
+[2025-10-24 13:50:21,531] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-24 13:50:21,708] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-24 13:50:21,880] WARNING django.request: Not Found: /static/bigday/images/gifts/eletro.jpg
+[2025-10-24 13:50:21,955] WARNING django.request: Not Found: /static/bigday/images/gifts/pix.jpg
+[2025-10-24 14:01:58,231] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:01:58,270] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:01:58,304] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:01:58,319] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:02:13,616] WARNING django.request: Not Found: /presentes/
+[2025-10-24 14:04:01,455] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:04:01,497] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:04:01,615] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:04:01,672] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:08:55,043] WARNING django.request: Not Found: /
+[2025-10-24 14:09:00,614] WARNING django.request: Not Found: /
+[2025-10-24 14:09:03,128] WARNING django.request: Not Found: /
+[2025-10-24 14:11:10,017] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:11:10,153] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:11:10,231] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:11:10,297] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:11:18,010] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:11:18,016] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-24 14:11:18,022] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:11:18,027] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:11:18,033] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-24 14:11:18,041] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:11:18,193] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-24 14:11:18,203] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-24 14:13:55,359] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:13:55,382] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-24 14:13:55,550] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-24 14:13:55,572] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-24 14:13:55,652] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:13:55,673] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-24 14:13:55,730] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:13:55,765] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:13:59,443] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:13:59,450] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-24 14:13:59,457] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:13:59,463] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:13:59,469] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-24 14:13:59,475] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:13:59,616] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-24 14:13:59,623] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-24 14:15:15,229] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:15:15,236] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-24 14:15:15,402] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-24 14:15:15,409] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-24 14:15:15,534] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:15:15,542] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-24 14:15:15,548] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:15:15,555] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:29:59,026] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:29:59,149] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:29:59,160] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:29:59,165] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:30:06,720] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:30:06,732] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-24 14:30:06,740] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-24 14:30:06,750] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:30:06,756] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:30:06,904] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-24 14:30:06,913] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-24 14:30:07,139] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:30:41,717] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:30:41,724] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:30:41,733] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:30:41,744] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:30:49,117] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:30:49,133] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-24 14:30:49,149] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:30:49,162] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:30:49,173] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-24 14:30:49,185] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:30:49,306] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-24 14:30:49,327] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-24 14:30:54,394] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:30:54,422] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:30:54,445] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:30:54,461] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:31:06,369] WARNING django.request: Not Found: /invite/
+[2025-10-24 14:45:49,525] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 14:45:49,539] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 14:45:49,715] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 14:45:49,878] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 14:46:33,620] WARNING django.request: Not Found: /invite/
+[2025-10-24 14:46:33,925] WARNING django.request: Not Found: /favicon.ico
+[2025-10-24 15:37:33,715] WARNING django.request: Not Found: /
+[2025-10-24 15:37:38,340] WARNING django.request: Not Found: /
+[2025-10-24 15:39:39,966] WARNING django.request: Not Found: /
+[2025-10-24 15:39:42,578] WARNING django.request: Not Found: /
+[2025-10-24 15:39:43,462] WARNING django.request: Not Found: /
+[2025-10-24 15:39:43,799] WARNING django.request: Not Found: /
+[2025-10-24 15:39:44,024] WARNING django.request: Not Found: /
+[2025-10-24 15:39:45,971] WARNING django.request: Not Found: /
+[2025-10-24 15:49:01,199] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 15:49:01,331] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 15:49:01,341] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 15:49:01,352] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 15:52:15,994] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 15:52:16,000] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 15:52:16,008] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 15:52:16,160] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 15:52:24,841] WARNING django.security.csrf: Forbidden (CSRF token missing.): /create_preference/
+[2025-10-24 15:52:28,633] WARNING django.security.csrf: Forbidden (CSRF token missing.): /create_preference/
+[2025-10-24 20:34:15,988] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 20:34:17,328] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 20:34:17,368] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 20:34:17,415] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 20:35:43,757] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-24 20:35:43,766] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-24 20:35:43,931] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-24 20:35:43,948] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-24 20:35:44,117] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-24 20:35:44,151] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-24 20:35:44,292] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-24 20:35:44,301] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-24 20:35:44,310] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-24 20:35:44,325] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-24 20:35:44,339] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-24 20:35:44,360] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-24 20:35:44,484] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-25 13:14:17,227] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-25 13:14:17,289] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-25 13:14:17,474] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-25 13:14:17,479] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-25 13:14:17,659] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-25 13:14:17,664] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-25 13:14:17,812] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-25 13:14:17,820] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-25 13:14:17,826] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-25 13:14:17,833] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-25 13:14:17,888] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-25 13:14:17,894] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-25 13:14:17,962] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-27 12:14:56,672] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-27 12:14:56,682] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-27 12:14:56,787] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-27 12:14:56,943] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 09:15:00,303] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 09:15:00,342] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 09:15:00,350] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 09:15:00,508] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 09:17:11,250] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 09:17:11,257] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-28 09:17:11,406] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 09:17:11,411] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 09:17:11,599] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 09:17:11,617] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-28 09:17:11,632] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-28 09:17:11,649] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-28 09:17:11,660] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-28 09:17:11,673] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-28 09:17:11,758] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-28 09:17:11,776] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-28 09:17:11,790] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-28 09:19:30,344] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 09:19:30,353] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 09:19:30,505] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 09:19:30,514] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 10:15:17,963] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 10:15:17,973] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 10:15:18,128] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 10:15:18,137] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 10:15:21,971] WARNING django.security.csrf: Forbidden (CSRF token missing.): /create_preference/
+[2025-10-28 10:15:25,199] WARNING django.security.csrf: Forbidden (CSRF token missing.): /create_preference/
+[2025-10-28 10:19:46,358] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 10:19:46,364] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 10:19:46,514] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 10:19:46,524] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 10:19:52,269] WARNING django.security.csrf: Forbidden (CSRF token missing.): /create_preference/
+[2025-10-28 10:23:06,924] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 10:23:06,935] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 10:23:07,107] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 10:23:07,133] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 10:43:28,829] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 10:43:28,841] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 10:43:28,998] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 10:43:29,013] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 10:49:28,051] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 10:49:28,061] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 10:49:28,212] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 10:49:28,220] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 10:49:51,596] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 10:49:51,606] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-28 10:49:51,769] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 10:49:51,785] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 10:49:51,943] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 10:49:51,963] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-28 10:49:52,072] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-28 10:49:52,124] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-28 10:49:52,142] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-28 10:49:52,257] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-28 10:49:52,302] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-28 10:49:52,317] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-28 10:49:52,433] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-28 10:52:34,302] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-28 10:52:34,310] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 10:52:34,466] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 10:52:34,476] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 10:52:34,601] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-28 10:52:34,610] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 10:52:34,619] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-28 10:52:34,629] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-28 10:52:34,642] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-28 10:52:34,655] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-28 10:52:34,770] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-28 10:52:34,777] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-28 10:52:34,782] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-28 10:55:16,160] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 10:55:16,272] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 10:55:16,330] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 10:55:16,454] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 11:00:44,701] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 11:00:44,707] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 11:00:44,868] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 11:00:44,877] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 11:00:46,558] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 11:00:46,564] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-28 11:00:46,586] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 11:00:46,594] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 11:00:46,721] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 11:00:46,730] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-28 11:00:46,748] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-28 11:00:46,755] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-28 11:00:46,874] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-28 11:00:46,880] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-28 11:00:46,887] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-28 11:00:46,895] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-28 11:00:47,327] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-28 11:06:02,624] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-28 11:06:02,645] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 11:06:02,795] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-28 11:06:02,811] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-28 11:06:02,912] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 11:06:02,920] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-28 11:06:02,935] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 11:06:02,983] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-28 11:06:03,073] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-28 11:06:03,081] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-28 11:06:03,099] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-28 11:06:03,365] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-28 11:06:03,466] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 11:13:13,190] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 11:13:13,357] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-28 11:13:13,472] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-28 11:13:13,484] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-28 11:13:13,497] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-28 11:13:13,506] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-28 11:13:13,519] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-28 11:13:13,627] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 11:13:13,637] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 11:13:13,651] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 11:13:13,658] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-28 11:13:13,667] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-28 11:13:13,681] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-28 11:18:25,076] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-28 11:18:25,091] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 11:18:25,234] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-28 11:18:25,249] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-28 11:18:25,357] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-28 11:18:25,363] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-28 11:18:25,369] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 11:18:25,376] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-28 11:18:25,387] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 11:18:25,401] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 11:18:25,520] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-28 11:18:25,526] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-28 11:18:25,531] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-28 11:34:55,830] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-28 11:34:55,839] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 11:34:55,995] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-28 11:34:56,011] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-28 11:34:56,123] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-28 11:34:56,132] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-28 11:34:56,144] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-28 11:34:56,158] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 11:34:56,174] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 11:34:56,310] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 11:34:56,325] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-28 11:34:56,336] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-28 11:34:56,737] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-28 13:47:15,892] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 13:47:15,914] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 13:47:15,982] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 13:47:16,135] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 13:55:53,802] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 13:55:53,826] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 13:55:53,968] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 13:55:53,996] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 14:15:34,310] WARNING django.request: Not Found: /pagamento/sucesso/
+[2025-10-28 14:15:34,540] WARNING django.request: Not Found: /favicon.ico
+[2025-10-28 14:18:13,492] ERROR django.request: Internal Server Error: /pagamento/sucesso/
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/convite-renan-nicole/./bigday/views.py", line 96, in payment_success
+    return render(request, 'payments/success.html')
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: payments/success.html
+[2025-10-28 14:18:15,594] ERROR django.request: Internal Server Error: /pagamento/sucesso/
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/convite-renan-nicole/./bigday/views.py", line 96, in payment_success
+    return render(request, 'payments/success.html')
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: payments/success.html
+[2025-10-28 14:23:02,635] WARNING django.request: Not Found: /static/bigday/images/obrigado.png
+[2025-10-28 14:23:10,707] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 14:23:10,713] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 14:23:10,869] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 14:23:10,874] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 14:26:42,666] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 14:26:42,671] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 14:26:42,825] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 14:26:42,833] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 14:34:34,987] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 14:34:35,145] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 14:34:35,264] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 14:34:35,269] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 14:36:43,562] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 14:36:43,568] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 14:36:43,714] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 14:36:43,723] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 14:36:46,682] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 14:36:46,688] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 14:36:46,694] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 14:36:46,699] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 14:55:27,494] ERROR django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/convite-renan-nicole/./bigday/views.py", line 10, in home_view
+    return render(request, 'home.html')
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/engine.py", line 206, in select_template
+    return self.get_template(template_name)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 26: 'static'. Did you forget to register or load this tag?
+[2025-10-28 14:57:13,953] WARNING django.request: Not Found: /static/bigday/static/bigday/js/countdown.js
+[2025-10-28 14:57:13,959] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 14:57:14,105] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 14:57:14,113] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 14:57:14,236] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 14:58:51,309] WARNING django.request: Not Found: /static/bigday/js/countdown.js
+[2025-10-28 14:59:51,641] WARNING django.request: Not Found: /static/bigday/static/bigday/js/countdown.js
+[2025-10-28 14:59:51,797] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 14:59:51,905] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 14:59:51,925] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 14:59:51,933] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:02:17,732] WARNING django.request: Not Found: /static/bigday/static/bigday/js/countdown.js
+[2025-10-28 15:02:17,738] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:02:17,885] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:02:17,892] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:02:18,015] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:05:07,024] WARNING django.request: Not Found: /static/bigday/static/bigday/js/countdown.js
+[2025-10-28 15:05:07,044] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:05:07,226] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:05:07,403] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:05:07,616] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:05:10,555] WARNING django.request: Not Found: /static/bigday/static/bigday/js/countdown.js
+[2025-10-28 15:05:10,563] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:05:10,571] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:05:10,576] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:05:11,023] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:08:03,377] WARNING django.request: Not Found: /static/bigday/static/bigday/js/countdown.js
+[2025-10-28 15:08:03,413] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:08:03,572] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:08:03,594] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:08:03,642] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:12:51,687] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:12:51,692] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:12:51,842] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:12:51,847] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:18:36,652] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:18:36,667] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:18:36,809] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:18:36,823] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:18:51,525] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:18:51,530] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:18:51,535] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:18:51,539] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:18:54,426] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:18:54,433] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:18:54,439] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:18:54,445] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:19:14,277] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:19:14,288] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:19:14,296] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:19:14,694] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:19:16,280] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:19:16,289] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:19:16,296] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:19:16,304] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:19:34,047] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:19:34,052] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:19:34,058] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:19:34,063] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:21:37,768] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:21:37,773] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:21:37,926] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:21:37,933] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:21:41,777] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:21:41,782] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:21:41,786] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:21:41,791] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:26:03,151] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:26:03,168] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:26:03,325] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:26:03,344] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:26:26,149] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:26:26,169] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:26:26,186] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:26:26,203] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:27:43,559] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:27:43,567] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:27:43,743] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:27:44,140] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:30:41,242] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:30:41,248] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:30:41,395] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:30:41,402] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:30:47,593] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:30:47,613] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:30:47,635] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:30:47,652] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:44:10,828] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:44:10,841] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:44:10,992] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:44:11,008] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:54:40,679] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:54:40,692] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:54:40,853] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:54:40,870] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:54:42,440] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:54:42,446] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:54:42,454] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 15:54:42,462] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:58:46,991] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 15:58:47,002] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 15:58:47,171] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 15:58:47,184] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:01:42,220] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:01:42,229] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:01:42,375] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:01:42,381] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:01:44,675] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:01:44,683] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:01:44,688] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:01:44,693] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:01:52,713] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:01:52,720] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:01:52,725] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:01:52,730] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:02:31,668] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:02:31,785] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:02:31,792] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:02:31,947] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:12:11,138] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:12:11,151] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:12:11,160] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:12:11,472] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:16:20,552] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:16:20,561] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:16:20,569] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:16:20,732] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:16:28,838] WARNING django.request: Not Found: /invite/
+[2025-10-28 16:16:29,026] WARNING django.request: Not Found: /favicon.ico
+[2025-10-28 16:16:55,170] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:16:55,300] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:16:55,312] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:16:55,482] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:18:25,709] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:18:25,718] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:18:25,736] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:18:25,977] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:21:31,423] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:21:31,434] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:21:31,444] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:21:31,611] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:27:40,574] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:27:40,582] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:27:40,623] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:27:40,862] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:31:25,779] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:31:25,787] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:31:25,793] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:31:25,952] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:31:59,709] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-28 16:31:59,722] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:31:59,733] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:31:59,753] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:38:13,932] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-28 16:38:13,937] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-28 16:38:13,946] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-28 16:38:14,107] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 10:28:50,231] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 10:28:50,242] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 10:28:50,250] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 10:28:50,433] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 10:37:12,695] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 10:37:12,701] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 10:37:12,854] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 10:37:12,863] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 10:37:15,243] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 10:37:15,249] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 10:37:15,256] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 10:37:15,262] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 10:38:34,831] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 10:38:34,847] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 10:38:34,999] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 10:38:35,012] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 10:38:36,678] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 10:38:36,684] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 10:38:36,689] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 10:38:36,696] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 10:38:53,917] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 10:38:54,046] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 10:38:54,054] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 10:38:54,765] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 10:41:40,420] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 10:41:40,437] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 10:41:40,818] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 10:41:40,865] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 10:45:42,227] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 10:45:42,385] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 10:45:42,390] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 10:45:42,500] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 10:49:05,016] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 10:49:05,191] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 10:49:05,202] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 10:49:05,330] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:00:40,878] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:00:41,019] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:00:41,036] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:00:41,179] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:02:57,160] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:02:57,165] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:02:57,322] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:02:57,729] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:05:10,536] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:05:10,548] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:05:10,560] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:05:11,063] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:05:52,105] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:05:52,111] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:05:52,116] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:05:52,121] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:09:23,197] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:09:23,334] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:09:23,358] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:09:23,484] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:11:44,897] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:11:44,906] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:11:44,913] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:11:45,209] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:15:25,841] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:15:25,989] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:15:25,995] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:15:26,015] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:18:52,318] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:18:52,324] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:18:52,330] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:18:52,781] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:18:56,056] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:18:56,204] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:18:56,517] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:18:56,672] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:18:57,191] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:18:57,359] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:18:57,473] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:18:57,826] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:20:59,718] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-31 11:20:59,841] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:20:59,886] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:20:59,979] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:20:59,998] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:21:00,005] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-31 11:21:00,011] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-31 11:21:00,016] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-31 11:21:00,046] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-31 11:21:00,141] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-31 11:21:00,166] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-31 11:21:00,172] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-31 11:21:00,179] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-31 11:21:05,080] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:21:05,120] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:21:05,146] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:21:05,164] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:22:07,613] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:22:07,655] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:22:07,736] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:22:07,903] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:23:03,515] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:23:03,659] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:23:03,738] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:23:03,875] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:25:08,901] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:25:08,912] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:25:08,928] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:25:09,292] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:25:28,790] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:25:28,963] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:25:29,065] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:25:29,251] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:25:31,641] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:25:31,794] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:25:31,802] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:25:32,042] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:28:14,780] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:28:14,788] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:28:14,895] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:28:15,358] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:42:49,807] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:42:49,968] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:42:49,975] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:42:50,108] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:57:59,255] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:57:59,261] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:57:59,390] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:57:59,552] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:58:06,883] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:58:07,026] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:58:07,035] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:58:07,205] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:58:22,883] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:58:22,896] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:58:22,907] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 11:58:22,918] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:59:23,703] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 11:59:23,820] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 11:59:23,831] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 11:59:23,987] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 12:00:10,908] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 12:00:10,925] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 12:00:10,939] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 12:00:10,950] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 12:00:18,552] WARNING django.request: Not Found: /invite/
+[2025-10-31 12:00:18,771] WARNING django.request: Not Found: /favicon.ico
+[2025-10-31 12:00:24,462] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 12:00:24,468] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-10-31 12:00:24,474] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 12:00:24,482] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 12:00:24,490] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 12:00:24,613] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-10-31 12:00:24,625] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-10-31 12:00:24,632] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-10-31 12:00:24,638] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-10-31 12:00:24,643] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-10-31 12:00:24,778] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-10-31 12:00:24,784] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-10-31 12:00:24,977] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-10-31 14:32:50,201] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 14:32:50,314] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 14:32:50,364] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 14:32:50,490] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 14:32:54,347] WARNING django.request: Not Found: /admin
+[2025-10-31 14:33:12,938] WARNING django.request: Not Found: /dashboard
+[2025-10-31 14:59:52,528] WARNING django.request: Not Found: /favicon.ico
+[2025-10-31 15:07:01,659] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 15:07:01,675] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 15:07:01,838] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 15:07:01,867] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 15:07:02,860] WARNING django.request: Not Found: /invite/
+[2025-10-31 15:27:51,505] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 15:27:51,516] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 15:27:51,681] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 15:27:51,692] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-10-31 15:36:04,651] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-10-31 15:36:04,661] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-10-31 15:36:04,834] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-10-31 15:36:04,847] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-01 11:40:33,614] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-01 12:03:30,799] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-01 12:03:32,559] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-01 12:03:33,107] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-01 22:24:06,949] WARNING django.request: Not Found: /favicon.ico
+[2025-11-01 22:24:16,606] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-01 22:24:16,818] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-01 22:24:18,282] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-01 22:24:18,325] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-02 13:25:05,045] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-02 13:25:07,062] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-02 13:25:07,193] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-02 13:25:08,419] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-03 09:53:00,211] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-03 09:53:00,242] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-03 09:53:00,254] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-03 09:53:00,444] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-03 10:24:13,760] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-03 10:24:13,767] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-03 10:24:13,937] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-03 10:24:13,956] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-03 10:31:43,569] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-03 10:31:43,592] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-03 10:31:43,756] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-03 10:31:43,780] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-03 10:31:47,511] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 10:31:48,139] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 10:32:04,184] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 10:50:35,603] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 10:50:35,796] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 10:53:30,468] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-03 10:53:30,479] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-03 10:53:30,638] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-03 10:53:30,647] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-03 10:53:33,974] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 10:53:39,907] ERROR django.request: Internal Server Error: /invite/8e2ada2193064b5280b46c62cea90e74/
+Traceback (most recent call last):
+  File "/home/rsouza01/convite-renan-nicole/./guests/invitation.py", line 16, in guess_party_by_invite_id_or_404
+    return Party.objects.get(invitation_id=invite_id)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+guests.models.Party.DoesNotExist: Party matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/convite-renan-nicole/./guests/views.py", line 71, in invitation
+    party = guess_party_by_invite_id_or_404(invite_id)
+  File "/home/rsouza01/convite-renan-nicole/./guests/invitation.py", line 20, in guess_party_by_invite_id_or_404
+    return Party.objects.get(id=int(invite_id))
+ValueError: invalid literal for int() with base 10: '8e2ada2193064b5280b46c62cea90e74'
+[2025-11-03 10:54:54,535] ERROR django.request: Internal Server Error: /invite/8e2ada2193064b5280b46c62cea90e74/
+Traceback (most recent call last):
+  File "/home/rsouza01/convite-renan-nicole/./guests/invitation.py", line 16, in guess_party_by_invite_id_or_404
+    return Party.objects.get(invitation_id=invite_id)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+guests.models.Party.DoesNotExist: Party matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/convite-renan-nicole/./guests/views.py", line 71, in invitation
+    party = guess_party_by_invite_id_or_404(invite_id)
+  File "/home/rsouza01/convite-renan-nicole/./guests/invitation.py", line 20, in guess_party_by_invite_id_or_404
+    return Party.objects.get(id=int(invite_id))
+ValueError: invalid literal for int() with base 10: '8e2ada2193064b5280b46c62cea90e74'
+[2025-11-03 10:55:02,855] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 10:55:03,052] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 10:55:09,464] ERROR django.request: Internal Server Error: /invite/a261f73cf25e49139582df9a9b63602f/
+Traceback (most recent call last):
+  File "/home/rsouza01/convite-renan-nicole/./guests/invitation.py", line 16, in guess_party_by_invite_id_or_404
+    return Party.objects.get(invitation_id=invite_id)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+guests.models.Party.DoesNotExist: Party matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/convite-renan-nicole/./guests/views.py", line 71, in invitation
+    party = guess_party_by_invite_id_or_404(invite_id)
+  File "/home/rsouza01/convite-renan-nicole/./guests/invitation.py", line 20, in guess_party_by_invite_id_or_404
+    return Party.objects.get(id=int(invite_id))
+ValueError: invalid literal for int() with base 10: 'a261f73cf25e49139582df9a9b63602f'
+[2025-11-03 10:56:24,530] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 10:56:24,730] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 11:03:49,700] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 11:35:40,229] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 11:35:40,425] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 11:36:25,483] ERROR django.request: Internal Server Error: /admin/guests/party/add/
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1787, in _changeform_view
+    formsets, inline_instances = self._create_formsets(
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2257, in _create_formsets
+    for FormSet, inline in self.get_formsets_with_inlines(*get_formsets_args):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 907, in get_formsets_with_inlines
+    yield inline.get_formset(request, obj), inline
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2436, in get_formset
+    return inlineformset_factory(self.parent_model, self.model, **defaults)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 1322, in inlineformset_factory
+    FormSet = modelformset_factory(model, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 1036, in modelformset_factory
+    form = modelform_factory(
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (email) specified for Guest
+[2025-11-03 11:36:30,107] ERROR django.request: Internal Server Error: /admin/guests/party/add/
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1787, in _changeform_view
+    formsets, inline_instances = self._create_formsets(
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2257, in _create_formsets
+    for FormSet, inline in self.get_formsets_with_inlines(*get_formsets_args):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 907, in get_formsets_with_inlines
+    yield inline.get_formset(request, obj), inline
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2436, in get_formset
+    return inlineformset_factory(self.parent_model, self.model, **defaults)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 1322, in inlineformset_factory
+    FormSet = modelformset_factory(model, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 1036, in modelformset_factory
+    form = modelform_factory(
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (email) specified for Guest
+[2025-11-03 11:36:38,297] ERROR django.request: Internal Server Error: /admin/guests/party/add/
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1815, in _changeform_view
+    formsets, inline_instances = self._create_formsets(
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2257, in _create_formsets
+    for FormSet, inline in self.get_formsets_with_inlines(*get_formsets_args):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 907, in get_formsets_with_inlines
+    yield inline.get_formset(request, obj), inline
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2436, in get_formset
+    return inlineformset_factory(self.parent_model, self.model, **defaults)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 1322, in inlineformset_factory
+    FormSet = modelformset_factory(model, **kwargs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 1036, in modelformset_factory
+    form = modelform_factory(
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/forms/models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (email) specified for Guest
+[2025-11-03 11:57:07,824] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 14:38:53,311] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 14:40:54,827] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 14:40:55,025] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 14:41:04,910] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 14:41:09,603] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 14:41:09,794] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-03 14:41:11,663] ERROR django.request: Internal Server Error: /invite/fa0d482443c349beb33b48d9bc4aeac2/
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'Guest' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'Guest' object has no attribute 'unique_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'unique_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/convite-renan-nicole/./guests/views.py", line 94, in invitation
+    return render(request, 'guests/invitation_modern.html', {
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 539, in render
+    values = {key: val.resolve(context) for key, val in self.extra_context.items()}
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 539, in <dictcomp>
+    values = {key: val.resolve(context) for key, val in self.extra_context.items()}
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 736, in resolve
+    arg_vals.append(arg.resolve(context))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [unique_id] in <Guest: Carlos Souza>
+[2025-11-04 10:24:31,782] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-04 10:24:32,022] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-04 10:24:32,093] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-04 10:24:32,173] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-04 16:27:12,647] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-04 16:27:12,978] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-04 16:27:30,414] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-04 16:27:30,587] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-04 16:27:34,941] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-04 16:27:35,122] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-04 16:27:59,241] WARNING django.request: Not Found: /static/admin/css/custom_admin.css
+[2025-11-04 16:31:34,168] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-04 16:31:34,330] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-04 16:31:34,461] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-04 16:31:34,466] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-04 16:49:06,356] ERROR django.request: Internal Server Error: /rsvp/confirm/fa0d482443c349beb33b48d9bc4aeac2/
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/convite-renan-nicole/./guests/views.py", line 148, in rsvp_confirm
+    return render(request, 'guests/rsvp_confirmation.html', {
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 1491, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 1482, in do_with
+    extra_context = token_kwargs(remaining_bits, parser, support_legacy=True)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1116, in token_kwargs
+    kwargs[key] = parser.compile_filter(value)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 698, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 606, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'filter'
+[2025-11-04 16:49:33,707] ERROR django.request: Internal Server Error: /rsvp/confirm/fa0d482443c349beb33b48d9bc4aeac2/
+Traceback (most recent call last):
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rsouza01/convite-renan-nicole/./guests/views.py", line 148, in rsvp_confirm
+    return render(request, 'guests/rsvp_confirmation.html', {
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 1491, in do_with
+    nodelist = parser.parse(("endwith",))
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 1482, in do_with
+    extra_context = token_kwargs(remaining_bits, parser, support_legacy=True)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 1116, in token_kwargs
+    kwargs[key] = parser.compile_filter(value)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 698, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/home/rsouza01/.virtualenvs/venv/lib/python3.10/site-packages/django/template/base.py", line 606, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'filter'
+[2025-11-04 16:56:35,118] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-04 16:56:35,281] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-04 16:56:35,394] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-04 16:56:35,399] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-04 21:41:44,464] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-04 21:41:44,488] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-04 21:41:44,683] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-04 21:41:44,691] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 10:34:57,057] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 10:34:57,088] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 10:34:57,096] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 10:34:57,338] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 10:34:59,269] WARNING django.request: Not Found: /static/bigday/images/gifts/fogao.jpg
+[2025-11-05 10:34:59,276] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 10:34:59,283] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 10:34:59,291] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 10:34:59,299] WARNING django.request: Not Found: /static/bigday/images/gifts/lavadora.jpg
+[2025-11-05 10:34:59,305] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 10:34:59,450] WARNING django.request: Not Found: /static/bigday/images/gifts/aspirador.jpg
+[2025-11-05 10:34:59,470] WARNING django.request: Not Found: /static/bigday/images/gifts/toalhas.jpg
+[2025-11-05 10:34:59,481] WARNING django.request: Not Found: /static/bigday/images/gifts/jogo-cama.jpg
+[2025-11-05 10:34:59,494] WARNING django.request: Not Found: /static/bigday/images/gifts/tapete.jpg
+[2025-11-05 10:34:59,536] WARNING django.request: Not Found: /static/bigday/images/gifts/viagem.jpg
+[2025-11-05 10:34:59,616] WARNING django.request: Not Found: /static/bigday/images/gifts/jantar.jpg
+[2025-11-05 10:34:59,803] WARNING django.request: Not Found: /static/bigday/images/gifts/ferro.jpg
+[2025-11-05 11:27:15,403] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 11:27:15,410] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 11:27:15,560] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 11:27:15,568] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 11:37:22,834] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 11:37:22,842] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 11:37:22,990] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 11:37:23,000] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 11:39:03,659] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 11:39:03,681] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 11:39:03,695] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 11:39:03,855] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 11:39:25,692] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 11:39:25,700] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 11:39:25,708] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 11:39:25,716] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 11:42:46,420] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 11:42:46,566] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 11:42:46,581] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 11:42:46,697] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 11:45:26,262] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 11:45:26,273] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 11:45:26,371] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 11:45:26,379] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 11:45:26,425] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 11:45:26,434] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 11:45:26,499] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 11:45:26,748] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 11:46:22,716] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 11:46:22,722] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 11:46:22,754] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 11:46:22,763] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 11:48:30,067] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-05 11:48:30,212] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-05 11:48:30,218] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-05 11:48:30,224] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-05 15:02:32,006] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-11-05 15:02:32,237] WARNING django.request: Not Found: /favicon.ico
+[2025-11-05 15:02:32,245] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-05 15:02:32,790] WARNING django.request: Not Found: /apple-touch-icon-120x120-precomposed.png
+[2025-11-05 15:02:32,984] WARNING django.request: Not Found: /apple-touch-icon-120x120.png
+[2025-11-05 15:02:33,200] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-11-05 15:02:33,416] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-06 16:14:00,542] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-06 16:14:00,666] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-06 16:14:00,676] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-06 16:14:00,854] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-10 09:35:49,704] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-11-10 09:35:51,764] WARNING django.request: Not Found: /favicon.ico
+[2025-11-10 09:35:51,816] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-10 11:53:07,638] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-11-10 11:53:07,687] WARNING django.request: Not Found: /favicon.ico
+[2025-11-10 11:53:07,817] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-12 21:41:57,245] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-12 21:41:58,340] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-12 21:41:58,510] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-12 21:41:58,671] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-13 10:23:46,635] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-13 10:23:46,774] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-13 10:23:46,789] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-13 10:23:46,797] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-14 14:27:21,542] WARNING django.request: Not Found: /favicon.ico
+[2025-11-14 14:27:22,474] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-11-14 14:27:22,850] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-14 14:27:24,719] WARNING django.request: Not Found: /apple-touch-icon-120x120-precomposed.png
+[2025-11-14 14:27:24,931] WARNING django.request: Not Found: /apple-touch-icon-120x120.png
+[2025-11-14 14:27:25,147] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-11-14 14:27:25,364] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-14 17:16:08,765] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-11-14 17:16:08,902] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-14 17:16:08,913] WARNING django.request: Not Found: /favicon.ico
+[2025-11-15 20:55:29,373] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-15 20:55:29,381] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-15 20:55:29,831] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-15 20:55:29,946] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-15 20:55:30,025] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-15 20:55:30,184] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-15 20:55:30,209] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-17 19:04:25,035] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2025-11-17 19:04:25,264] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2025-11-17 19:04:25,335] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2025-11-17 19:04:25,509] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2025-11-18 18:09:38,320] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-11-18 18:09:38,494] WARNING django.request: Not Found: /favicon.ico
+[2025-11-18 18:09:38,503] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-22 18:37:00,401] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-22 18:37:00,496] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-11-22 18:37:52,204] WARNING django.request: Not Found: /favicon.ico
+[2025-11-22 18:38:11,184] WARNING django.request: Not Found: /favicon.ico
+[2025-11-23 08:12:20,612] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-11-23 08:12:20,902] WARNING django.request: Not Found: /favicon.ico
+[2025-11-23 08:12:20,908] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-27 20:06:12,470] WARNING django.request: Not Found: /apple-touch-icon.png
+[2025-11-27 20:06:12,478] WARNING django.request: Not Found: /favicon.ico
+[2025-11-27 20:06:12,561] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-12-01 20:22:55,303] WARNING django.request: Not Found: /apple-touch-icon-precomposed.png
+[2025-12-01 20:22:55,408] WARNING django.request: Not Found: /favicon.ico
+[2025-12-01 20:22:55,416] WARNING django.request: Not Found: /apple-touch-icon.png
+[2026-01-23 07:30:11,213] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2026-01-23 07:30:11,241] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2026-01-23 07:30:11,272] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2026-01-23 07:30:11,457] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg
+[2026-01-23 09:52:29,285] WARNING django.request: Not Found: /static/bigday/images/gifts/geladeira.jpg
+[2026-01-23 09:52:29,591] WARNING django.request: Not Found: /static/bigday/images/gifts/microondas.jpg
+[2026-01-23 09:52:29,916] WARNING django.request: Not Found: /static/bigday/images/gifts/panelas.jpg
+[2026-01-23 09:52:30,522] WARNING django.request: Not Found: /static/bigday/images/gifts/liquidificador.jpg

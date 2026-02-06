@@ -27,19 +27,17 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 # SECURITY WARNING: keep the secret key used in production secret!
 # This is a default value and must be changed!
 # Rename "localsettings.py.template" to 'localsettings.py' and edit your settings.
-# To protect your credentials from leaking to your Git server we added 'localsettings.py' to the gitignoreSECRET_KEY = env('SECRET_KEY')SECRET_KEY = env('SECRET_KEY', default='u7!-y4k1c6b44q507nr_l+c^12o7ur++cpzyn!$65w^!gum@h%')
-SECRET_KEY = env('SECRET_KEY')
+# To protect your credentials from leaking to your Git server we added 'localsettings.py' to the gitignore
+SECRET_KEY = env('SECRET_KEY', default='u7!-y4k1c6b44q507nr_l+c^12o7ur++cpzyn!$65w^!gum@h%')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # Set to "console" for console output of emails or to "smtp" to send real mails
 MAIL_BACKEND = "console"
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "rsouza01.pythonanywhere.com" ]
+ALLOWED_HOSTS = ["rsouza01.pythonanywhere.com" ]
 CSRF_TRUSTED_ORIGINS = [
-    "http://127.0.0.1",
-    "http://localhost",
     "https://rsouza01.pythonanywhere.com",
     "http://rsouza01.pythonanywhere.com"
 ]
@@ -166,7 +164,7 @@ WEDDING_DATE = 'January 1st, 1969'
 # the location of your wedding
 WEDDING_LOCATION = 'North Pole, USA'
 # This is used in links in save the date / invitations
-WEDDING_WEBSITE_URL = 'https://rsouza01.pythonanywhere.com'
+WEDDING_WEBSITE_URL = 'https://thehappycouple.com'
 # base address for all emails
 DEFAULT_WEDDING_EMAIL = 'happilyeverafter@example.com'
 WEDDING_CC_LIST = []
@@ -193,53 +191,3 @@ DEFAULT_WEDDING_FROM_EMAIL = BRIDE_AND_GROOM + ' <' + DEFAULT_WEDDING_EMAIL + '>
 DEFAULT_WEDDING_TEST_EMAIL = DEFAULT_WEDDING_FROM_EMAIL
 # the default reply-to of your emails, change, if you want to have your replies somewhere else
 DEFAULT_WEDDING_REPLY_EMAIL = DEFAULT_WEDDING_EMAIL
-# expõe as chaves do Mercado Pago para o resto da app
-MP_PUBLIC_KEY = env('MP_PUBLIC_KEY', default='APP_USR-f85560e0-357f-49e6-9c69-25db9991aaea')
-MP_ACCESS_TOKEN = env('MP_ACCESS_TOKEN', default='APP_USR-3852651305729349-102414-12dade925e11e409fe9624038ac4bfb8-2945285379')
-
-
-# --- LOGGING CONFIGURAÇÃO ---
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'verbose': {
-            'format': '[{asctime}] {levelname} {name}: {message}',
-            'style': '{',
-        },
-        'simple': {
-            'format': '{levelname}: {message}',
-            'style': '{',
-        },
-    },
-    'handlers': {
-        'file': {
-            'level': 'WARNING',
-            'class': 'logging.FileHandler',
-            'filename': os.path.join(BASE_DIR, 'django-error.log'),
-            'formatter': 'verbose',
-        },
-        'console': {
-            'class': 'logging.StreamHandler',
-        },
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['file', 'console'],
-            'level': 'WARNING',
-            'propagate': True,
-        },
-    },
-}
-# --- SEGURANÇA ---
-SECURE_BROWSER_XSS_FILTER = True
-SECURE_CONTENT_TYPE_NOSNIFF = True
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
-X_FRAME_OPTIONS = 'DENY'
-
-# Redireciona automaticamente HTTP → HTTPS
-SECURE_SSL_REDIRECT = True
-
-# === LOGIN CONFIG ===
-LOGIN_URL = '/admin/login/'
