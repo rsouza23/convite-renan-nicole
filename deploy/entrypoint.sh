@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Liberar a porta 8000 se ela estiver em uso
-lsof -ti:8000 | xargs kill -9
-
 # Coletar arquivos estáticos
 python manage.py collectstatic --noinput
 
@@ -22,5 +19,5 @@ EOF
 # Iniciar o Nginx
 /usr/sbin/nginx -g 'daemon off;' &
 
-# Iniciar o Gunicorn (na porta 8000)
-gunicorn bigday.wsgi:application --bind 0.0.0.0:8000
+# Iniciar o Gunicorn (na nova porta 8001)
+gunicorn bigday.wsgi:application --bind 0.0.0.0:8001
