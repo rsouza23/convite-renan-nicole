@@ -36,7 +36,7 @@ DEBUG = True
 # Set to "console" for console output of emails or to "smtp" to send real mails
 MAIL_BACKEND = "console"
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "rsouza01.pythonanywhere.com" ]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "rsouza01.pythonanywhere.com" "convite-renan-nicole-production.up.railway.app"]
 CSRF_TRUSTED_ORIGINS = [
     "http://127.0.0.1",
     "http://localhost",
@@ -45,6 +45,7 @@ CSRF_TRUSTED_ORIGINS = [
     "http://rsouza01.pythonanywhere.com"
 =======
     "rsouza01.pythonanywhere.com"
+    "https://convite-renan-nicole-production.up.railway.app"
 >>>>>>> fa39fde8b88d12a844651420f3a5a4b8b753c679
 ]
 
