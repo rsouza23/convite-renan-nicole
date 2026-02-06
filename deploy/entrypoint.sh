@@ -20,4 +20,4 @@ EOF
 /usr/sbin/nginx -g 'daemon off;' &
 
 # Iniciar o Gunicorn
-gunicorn bigday.wsgi:application --bind 0.0.0.0:8000
+gunicorn bigday.wsgi:application --bind 0.0.0.0:8080
